@@ -29,15 +29,11 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Install Requirements
-```bash
-pip install -r requirements.txt
-```
-### 5. Jalankan Backend (FLask)
+### 4. Jalankan Backend (FLask)
 ```bash
 python app.py
 ```
-### 6. Buka Web
+### 5. Buka Web
 Buka file index.html di browser Anda untuk mengakses aplikasi web.
 
 ## Website Inference
