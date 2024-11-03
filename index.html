@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv9 Model Inference</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Deteksi Rumah Layak/Tidak Layak</h1>
+
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <button class="button" onclick="document.getElementById('imageInput').click()">
+                Pilih Gambar
+            </button>
+            <p>or drag and drop image here</p>
+        </div>
+
+        <div class="preview-section">
+            <img id="imagePreview" alt="Preview">
+            <canvas id="resultCanvas"></canvas>
+        </div>
+
+        <div class="loading">Processing...</div>
+
+        <div id="results"></div>
+
+        <button id="detectButton" class="button" disabled onclick="detectObjects()">
+            Detect Objects
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
