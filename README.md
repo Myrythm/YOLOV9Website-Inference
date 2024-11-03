@@ -9,6 +9,19 @@
    ```
 3. Pastikan Anda mengunduh dependencies yang diperlukan.
 
+## Struktur Direktori
+``` bash
+inference/
+├── app.py
+├── index.html
+├── script.js
+├── styles.css
+├── yolov9-rumah.pt
+└── yolov9/  # folder dari repo YOLOv9
+    ├── models/
+    ├── utils/
+    └── ...
+```
 ## Instalasi
 
 Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek ini di lingkungan lokal Anda.
