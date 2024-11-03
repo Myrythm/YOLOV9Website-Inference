@@ -2,7 +2,12 @@
 ## Prasyarat
 
 1. **Python 3.x** harus terpasang di sistem Anda.
-2. Pastikan Anda mengunduh dependencies yang diperlukan.
+2. Clone repositori YOLOv9 ke dalam direktori lokal Anda:
+
+   ```bash
+   git clone https://github.com/WongKinYiu/yolov9.git
+   ```
+3. Pastikan Anda mengunduh dependencies yang diperlukan.
 
 ## Instalasi
 
